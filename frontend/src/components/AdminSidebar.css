@@ -1,0 +1,93 @@
+/* ===================================================================
+   Admin Sidebar Styles - Matching Website Theme
+   =================================================================== */
+
+.admin-sidebar {
+    width: 260px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0A8F47 0%, #077a3c 100%);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-sidebar-header {
+    padding: 24px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.admin-sidebar-header h2 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-sidebar-nav {
+    flex: 1;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.admin-sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.admin-sidebar-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border-left-color: rgba(255, 255, 255, 0.5);
+}
+
+.admin-sidebar-item.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-left-color: #fff;
+}
+
+.admin-sidebar-icon {
+    font-size: 1.2rem;
+    width: 28px;
+    text-align: center;
+}
+
+.admin-sidebar-label {
+    flex: 1;
+}
+
+.admin-sidebar-footer {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.admin-sidebar-back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.admin-sidebar-back:hover {
+    color: #fff;
+}
