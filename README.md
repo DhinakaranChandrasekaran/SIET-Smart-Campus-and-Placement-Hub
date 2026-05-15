@@ -1,4 +1,4 @@
-# 🎓 SIET Profile Management System
+# 🎓 SIET Smart Campus and Placement Hub
 
 > **College Placement & Student Profile Management System for Sri Shakthi Institute of Engineering and Technology**
 >
